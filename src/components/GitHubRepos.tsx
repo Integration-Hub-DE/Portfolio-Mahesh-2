@@ -56,14 +56,14 @@ export default function GitHubRepos() {
                   <span className="w-3 h-3 rounded-full bg-sky-500" />
                   {repo.language}
                 </span>
-                <span className="flex items-center gap-1">
+                {/* <span className="flex items-center gap-1">
                   <Star className="w-3.5 h-3.5" />
                   {repo.stars}
                 </span>
                 <span className="flex items-center gap-1">
                   <GitFork className="w-3.5 h-3.5" />
                   {repo.forks}
-                </span>
+                </span> */}
               </div>
             </a>
           ))}
