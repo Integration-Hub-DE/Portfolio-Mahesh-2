@@ -134,18 +134,20 @@ export const experiences = [
 
 export const education = [
   {
-    degree: 'Master of Science in Computer Science',
-    institution: 'University of Technology',
-    period: '2016 — 2018',
+    degree: 'Master of Computer Applications',
+    university: 'Kurukshetra University, Kurukshetra',
+    institution: 'Panipat Institute Of Engineering & Technology, Panipat',
+    period: '2019 — 2021',
     description:
-      'Specialized in Database Systems and Big Data Analytics. Thesis on distributed data processing using Apache Spark.',
+      'Advanced studies in computer applications, software engineering, database systems, and data technologies, with a focus on developing scalable and efficient software and data-driven solutions.',
   },
   {
-    degree: 'Bachelor of Technology in Computer Science',
-    institution: 'State University',
-    period: '2012 — 2016',
+    degree: 'Bachelor of Computer Applications',
+    university: 'Kurukshetra University, Kurukshetra',
+    institution: 'Arya P.G. College, Panipat',
+    period: '2015 — 2018',
     description:
-      'Graduated with honors. Coursework focused on data structures, algorithms, and database management systems.',
+      'Comprehensive foundation in computer science, programming, database systems, data structures, algorithms, and software development, establishing the core technical foundation for a career in data engineering and technology.',
   },
 ];
 
@@ -327,8 +329,8 @@ export const githubRepos = [
 ];
 
 export const stats = [
-  { label: 'Years of Experience', value: '7+' },
+  { label: 'Years of Experience', value: '5' },
   { label: 'Projects Delivered', value: '40+' },
-  { label: 'Pipelines Built', value: '200+' },
+  { label: 'Pipelines Built, Troubleshooted', value: '200+' },
   { label: 'Data Processed', value: '50TB+' },
 ];
