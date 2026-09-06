@@ -14,7 +14,7 @@ export default function Experience() {
             Work Experience
           </h2>
           <p className="mt-4 text-slate-600 max-w-2xl mx-auto">
-            Seven years of building data pipelines, analytics platforms, and
+            Five years of building data pipelines, analytics platforms, and
             enterprise data solutions.
           </p>
         </div>
