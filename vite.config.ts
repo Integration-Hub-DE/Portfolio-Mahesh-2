@@ -21,7 +21,7 @@ import { fileURLToPath, URL } from 'node:url';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-base: '/Portfolio-Mahesh/',
+base: '/Portfolio-Mahesh-2/',
   plugins: [react()],
   resolve: {
     alias: {
