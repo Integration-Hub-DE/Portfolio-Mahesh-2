@@ -286,7 +286,7 @@ export const githubRepos = [
   {
     name: 'datafactory-linkedtemplates-automate-deployments',
     description:
-      'Built an enterprise-grade Azure Data Factory CI/CD automation solution using GitHub Actions, ARM Templates, Microsoft Entra ID Federated Authentication (OIDC), Azure Resource Manager, and Azure RBAC. The framework automates validation, template generation, and deployment of Azure Data Factory resources, enabling secure, scalable, and repeatable releases across Development, Test, and Production environments while eliminating manual deployment activities.',
+      'Built an enterprise-grade Azure Data Factory CI/CD automation solution using GitHub Actions, ARM Templates, Microsoft Entra ID Federated Authentication (OIDC), Azure Resource Manager, and Azure RBAC. The framework automates validation, template generation, and deployment of Azure Data Factory resources, enabling secure, scalable, and repeatable releases across environments.',
     language: 'Yaml',
     // stars: 189,
     // forks: 42,
