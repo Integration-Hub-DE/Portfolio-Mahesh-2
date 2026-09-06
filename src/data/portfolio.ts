@@ -275,58 +275,31 @@ export const certifications = [
 
 export const githubRepos = [
   {
-    name: 'azure-data-pipeline-templates',
+    name: 'datafactory-automate-deployments',
     description:
-      'Reusable Azure Data Factory pipeline templates for common ETL patterns — incremental loads, SCD-Type2, and metadata-driven orchestration.',
-    language: 'Python',
-    stars: 342,
-    forks: 87,
-    url: 'https://github.com/mahesh-data/azure-data-pipeline-templates',
+      'Designed and implemented a scalable, reusable, and production-ready CI/CD framework for Azure Data Factory using GitHub Actions, ARM Templates, Microsoft Entra ID Federated Credentials (OIDC), and Azure RBAC. Eliminates manual deployments and enables repeatable, secure, and automated promotion of ADF resources across environments.',
+    language: 'Yaml',
+    // stars: 189,
+    // forks: 42,
+    url: 'https://github.com/Integration-Hub-DE/datafactory-automate-deployments',
   },
   {
-    name: 'fabric-lakehouse-medallion',
+    name: 'datafactory-linkedtemplates-automate-deployments',
     description:
-      'Microsoft Fabric Lakehouse medallion architecture reference implementation with Notebook-based transformations and Warehouse integration.',
-    language: 'Python',
-    stars: 218,
-    forks: 54,
-    url: 'https://github.com/mahesh-data/fabric-lakehouse-medallion',
+      'Built an enterprise-grade Azure Data Factory CI/CD automation solution using GitHub Actions, ARM Templates, Microsoft Entra ID Federated Authentication (OIDC), Azure Resource Manager, and Azure RBAC. The framework automates validation, template generation, and deployment of Azure Data Factory resources, enabling secure, scalable, and repeatable releases across Development, Test, and Production environments while eliminating manual deployment activities.',
+    language: 'Yaml',
+    // stars: 189,
+    // forks: 42,
+    url: 'https://github.com/Integration-Hub-DE/datafactory-linkedtemplates-automate-deployments',
   },
   {
-    name: 'databricks-pyspark-toolkit',
+    name: 'datafactory-automate-deployments-with-prepostscript',
     description:
       'A collection of Pyspark utility functions for Databricks — data quality checks, schema validation, and performance optimization helpers.',
-    language: 'Python',
-    stars: 189,
-    forks: 42,
-    url: 'https://github.com/mahesh-data/databricks-pyspark-toolkit',
-  },
-  {
-    name: 'powerbi-semantic-models',
-    description:
-      'Pre-built Power BI semantic models and DAX measures for common business analytics scenarios — sales, finance, and operations.',
-    language: 'DAX',
-    stars: 156,
-    forks: 38,
-    url: 'https://github.com/mahesh-data/powerbi-semantic-models',
-  },
-  {
-    name: 'sql-server-optimization-playbook',
-    description:
-      'A comprehensive guide to SQL Server query optimization — indexing strategies, execution plan analysis, and stored procedure tuning.',
-    language: 'T-SQL',
-    stars: 274,
-    forks: 61,
-    url: 'https://github.com/mahesh-data/sql-server-optimization-playbook',
-  },
-  {
-    name: 'data-integration-patterns',
-    description:
-      'Documentation and code samples for enterprise data integration patterns using Azure Data Factory and Microsoft Fabric.',
-    language: 'Python',
-    stars: 132,
-    forks: 29,
-    url: 'https://github.com/mahesh-data/data-integration-patterns',
+    language: 'Yaml',
+    // stars: 189,
+    // forks: 42,
+    url: 'https://github.com/Integration-Hub-DE/datafactory-automate-deployments-with-prepostscript',
   },
 ];
 
