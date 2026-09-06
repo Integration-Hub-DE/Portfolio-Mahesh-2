@@ -97,7 +97,7 @@ export const experiences = [
       'Supported the design and implementation of enterprise-grade data pipelines using Azure Data Factory and Microsoft Fabric. Architected Microsoft Fabric solutions for real-time analytics.',
     achievements: [
       'Successfully contributed to the go-live of 30+ enterprise data integration and analytics projects for Philips, leveraging Azure Data Factory and SAP integration.',
-      'Collaborated with Optum's client to improve pipeline orchestration efficiency by 30%, optimizing ETL/ELT workflow execution, monitoring, and operational reliability.',
+      'Collaborated with Optum's client to improve pipeline orchestration efficiency by 30%, optimizing ETL and ELT workflow execution, monitoring, and operational reliability.',
       'Supported HDFC Bank in enhancing data workload performance by 20% through workload optimization, query tuning, and performance troubleshooting.',
       'Designed, troubleshot, supported and optimized large-scale analytics and data integration workloads across Microsoft Fabric, Azure Data Factory, Azure Data Lake Storage Gen2, Azure SQL, Power BI, and cloud-native data platforms',
       'Enabled customers to implement Azure DevOps and Git-based CI/CD frameworks, including deployment automation, source control strategies, release management, and DataOps best practices for enterprise data platforms',
