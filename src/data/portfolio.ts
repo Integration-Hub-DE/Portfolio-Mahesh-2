@@ -295,7 +295,7 @@ export const githubRepos = [
   {
     name: 'datafactory-automate-deployments-with-prepostscript',
     description:
-      'A collection of Pyspark utility functions for Databricks — data quality checks, schema validation, and performance optimization helpers.',
+      "End-to-end CI/CD implementation for Azure Data Factory using GitHub Actions, ARM Templates, OpenID Connect (OIDC) authentication, deployment approvals, and Microsoft's PrePostDeploymentScript for automated trigger management during deployments. Built to provide a repeatable, secure, and production-ready deployment process across environments.",
     language: 'Yaml',
     // stars: 189,
     // forks: 42,
