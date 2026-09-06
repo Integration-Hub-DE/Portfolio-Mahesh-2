@@ -45,12 +45,12 @@ export default function Skills() {
                           {skill.level}%
                         </span> */}
                       </div>
-                      <div className="h-2 rounded-full bg-slate-100 overflow-hidden">
+                      {/* <div className="h-2 rounded-full bg-slate-100 overflow-hidden">
                         <div
                           className="h-full rounded-full bg-gradient-to-r from-sky-500 to-teal-400 transition-all duration-700 ease-out"
                           style={{ width: `${skill.level}%` }}
                         />
-                      </div>
+                      </div> */}
                     </div>
                   ))}
                 </div>
