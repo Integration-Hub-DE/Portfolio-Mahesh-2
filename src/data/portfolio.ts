@@ -18,7 +18,7 @@ export const personalInfo = {
   role: 'Data Engineer',
   tagline:
     'Building scalable data pipelines and analytics solutions with Azure Data Factory, Microsoft Fabric, Databricks, and Power BI.',
-  email: 'sharmamahesh@email.com',
+  email: 'sharmamahesh@gmail.com',
   phone: '+91 8607458275',
   location: 'Hyderabad, Telangana',
   github: 'https://github.com/Integration-Hub-DE',
