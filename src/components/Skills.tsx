@@ -41,9 +41,9 @@ export default function Skills() {
                         <span className="text-sm font-medium text-slate-700">
                           {skill.name}
                         </span>
-                        <span className="text-xs text-slate-500">
+                        {/* <span className="text-xs text-slate-500">
                           {skill.level}%
-                        </span>
+                        </span> */}
                       </div>
                       <div className="h-2 rounded-full bg-slate-100 overflow-hidden">
                         <div
