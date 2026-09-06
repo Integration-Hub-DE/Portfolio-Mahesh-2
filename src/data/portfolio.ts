@@ -39,6 +39,16 @@ export const skillCategories = [
     ],
   },
   {
+    title: 'Analytics & Visualization',
+    icon: BarChart3,
+    skills: [
+      { name: 'Power BI' },
+      { name: 'Microsoft Fabric' },
+      { name: 'Warehouse' },
+      { name: 'Data Visualization' },
+    ],
+  },
+  {
     title: 'Storage & Databases',
     icon: Database,
     skills: [
@@ -58,16 +68,6 @@ export const skillCategories = [
       { name: 'Data Integration' },
       { name: 'SQL' },
       { name: 'Pyspark' },
-    ],
-  },
-  {
-    title: 'Analytics & Visualization',
-    icon: BarChart3,
-    skills: [
-      { name: 'Power BI' },
-      { name: 'Microsoft Fabric' },
-      { name: 'Warehouse' },
-      { name: 'Data Visualization' },
     ],
   },
 ];
