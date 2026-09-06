@@ -1,5 +1,5 @@
 import { personalInfo, techStack } from '@/data/portfolio';
-// import { Mail, Phone, MapPin, Briefcase, GraduationCap } from 'lucide-react';
+import { Mail, Phone, MapPin, Briefcase, GraduationCap } from 'lucide-react';
 
 export default function About() {
   return (
