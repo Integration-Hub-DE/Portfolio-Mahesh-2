@@ -3,7 +3,7 @@ import { FolderGit2, ArrowUpRight, CheckCircle2 } from 'lucide-react';
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-24 bg-white">
+    <section id="projects" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 px-3 py-1 mb-4 rounded-full bg-sky-100 text-sky-700 text-sm font-medium">
