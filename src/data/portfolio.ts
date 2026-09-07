@@ -341,21 +341,21 @@ export const githubRepos = [
 
 export const feedback = [
   {
-    name: 'Rajesh Kumar',
-    role: 'Engineering Manager, Microsoft',
+    name: 'Hidden due to security concern',
+    from : 'Accenture Team',
     rating: 5,
     text: 'The support experience was excellent. The engineer was responsive, patient, and knomledgeable throughout the investigation. The issue was thoroughly analyzed, the root cause was identified, and clear guidance was provided to the migration trom ACS to Microsoft Graph API. The recommendations and support received greatly helped in successfully implementing the solution and restoring the affected services. Thank you tor the professionalism and assistance provided throughout the engagement.',
       
     // Mahesh is an exceptional data engineer with deep expertise in Azure Data Factory and Microsoft Fabric. He consistently delivered complex data integration solutions for our enterprise clients, always finding ways to optimize pipeline performance and improve reliability. His ability to troubleshoot and resolve critical production issues under pressure is outstanding.',
   },
-  // {
-  //  // name: 'Sarah Mitchell',
-  //  // role: 'Lead Data Architect, Philips',
-  //   rating: 5,
-  //   text: 'Mahesh really helped a lot in understanding and resolving the issue. There is nothing to complain about. We are very satisfied with the help he provided.',
+  {
+    name: 'Hidden due to security concern',
+    from: 'Walgreens Team',
+    rating: 5,
+    text: 'Mahesh really helped a lot in understanding and resolving the issue. There is nothing to complain about. We are very satisfied with the help he provided.',
       
-  //   //Working with Mahesh on our enterprise data integration project was a pleasure. He played a key role in the successful go-live of 30+ analytics projects. His knowledge of Azure Data Factory, SAP integration, and Microsoft Fabric is top-notch. He is detail-oriented, proactive, and always willing to go the extra mile.',
-  // },
+    //Working with Mahesh on our enterprise data integration project was a pleasure. He played a key role in the successful go-live of 30+ analytics projects. His knowledge of Azure Data Factory, SAP integration, and Microsoft Fabric is top-notch. He is detail-oriented, proactive, and always willing to go the extra mile.',
+  },
   // {
   //   name: 'Vikram Singh',
   //   role: 'Senior Data Engineer, Optum',
