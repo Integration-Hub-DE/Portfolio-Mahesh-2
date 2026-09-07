@@ -341,7 +341,7 @@ export const githubRepos = [
 
 export const feedback = [
   {
-    name: 'Vikram Singh',
+    name: 'Masked',
     from : 'Accenture Team',
     rating: 5,
     text: 'The support experience was excellent. The engineer was responsive, patient, and knomledgeable throughout the investigation. The issue was thoroughly analyzed, the root cause was identified, and clear guidance was provided to the migration trom ACS to Microsoft Graph API. The recommendations and support received greatly helped in successfully implementing the solution and restoring the affected services. Thank you tor the professionalism and assistance provided throughout the engagement.',
@@ -349,7 +349,7 @@ export const feedback = [
     // Mahesh is an exceptional data engineer with deep expertise in Azure Data Factory and Microsoft Fabric. He consistently delivered complex data integration solutions for our enterprise clients, always finding ways to optimize pipeline performance and improve reliability. His ability to troubleshoot and resolve critical production issues under pressure is outstanding.',
   },
   {
-    name: 'Vikram Singh',
+    name: 'Masked',
     from: 'Walgreens Team',
     rating: 5,
     text: 'Mahesh really helped a lot in understanding and resolving the issue. There is nothing to complain about. We are very satisfied with the help he provided.',
