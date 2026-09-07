@@ -155,83 +155,83 @@ export const education = [
 
 export const projects = [
   {
-    title: 'Real-Time Sales Analytics Platform',
-    category: 'Azure Data Factory · Databricks · Power BI',
+    title: 'Enterprise Intelligent Retail & Supply Chain Analytics Platform',
+    category: 'Microsoft Fabric · Databricks · Power BI',
     description:
-      'Built an end-to-end real-time analytics platform ingesting streaming sales data through Azure Data Factory, processing with Databricks and Pyspark, and visualizing in Power BI dashboards with sub-second latency.',
-    tech: ['Azure Data Factory', 'Databricks', 'Pyspark', 'Power BI', 'SQL Server'],
+      'Designed and implemented a Microsoft Fabric-based analytics platform using Medallion Architecture, with automated Data Factory pipelines and PySpark transformations for data ingestion and processing. Developed Power BI semantic models and dashboards to deliver actionable insights into inventory and supply chain operations.',
+    tech: ['Microsoft Fabric', 'Fabric Data Factory', 'Fabric Lakehouse and Warehouse,', 'Databricks', 'Pyspark', 'Power BI', 'SQL Server (Azure, On-Prem)'],
     highlights: [
-      'Processes 5M+ events per day with 99.9% uptime',
-      'Reduced reporting latency from hours to seconds',
-      'Serves 200+ business users across 3 departments',
+      'Designed a Medallion Architecture (Bronze, Silver, Gold) using Microsoft Fabric.',
+      'Developed PySpark notebooks and Data Factory pipelines for automated ingestion and transformation.',
+      'Built Power BI semantic models and dashboards to support inventory and supply chain analytics.',
     ],
     gradient: 'from-sky-500 to-blue-600',
   },
-  {
-    title: 'Microsoft Fabric Lakehouse Migration',
-    category: 'Microsoft Fabric · Lakehouse · Mirroring',
-    description:
-      'Led the migration of legacy on-premises data warehouse to Microsoft Fabric Lakehouse. Implemented medallion architecture and configured mirroring for near real-time replication from SQL Server.',
-    tech: ['Microsoft Fabric', 'Lakehouse', 'Mirroring', 'Warehouse', 'Notebook'],
-    highlights: [
-      'Migrated 15TB of historical data with zero downtime',
-      'Achieved 40% cost reduction vs. legacy infrastructure',
-      'Enabled self-service analytics for 500+ users',
-    ],
-    gradient: 'from-teal-500 to-emerald-600',
-  },
-  {
-    title: 'Enterprise Data Integration Hub',
-    category: 'Azure Data Factory · Storage Account · SQL Server',
-    description:
-      'Designed a centralized data integration hub using Azure Data Factory to orchestrate ingestion from 20+ source systems into Azure Storage Account, with downstream processing in SQL Server and Databricks.',
-    tech: ['Azure Data Factory', 'Storage Account', 'SQL Server', 'Databricks'],
-    highlights: [
-      'Integrated 20+ disparate source systems into a unified data layer',
-      'Automated 50+ pipelines with dependency management and alerting',
-      'Reduced data ingestion errors by 85%',
-    ],
-    gradient: 'from-indigo-500 to-blue-600',
-  },
-  {
-    title: 'Customer 360 Analytics Solution',
-    category: 'Databricks · Pyspark · Power BI',
-    description:
-      'Developed a Customer 360 analytics solution combining transactional, behavioral, and demographic data. Used Databricks and Pyspark for large-scale processing and Power BI for executive dashboards.',
-    tech: ['Databricks', 'Pyspark', 'Notebook', 'Power BI', 'Lakehouse'],
-    highlights: [
-      'Unified customer data from 8 source systems into a single view',
-      'Enabled targeted marketing campaigns increasing conversion by 25%',
-      'Processed 3TB+ of customer interaction data monthly',
-    ],
-    gradient: 'from-amber-500 to-orange-600',
-  },
-  {
-    title: 'Financial Reporting Automation',
-    category: 'Microsoft Fabric · Warehouse · Power BI',
-    description:
-      'Automated financial reporting workflows using Microsoft Fabric Warehouse and Power BI. Replaced manual month-end Excel processes with automated, auditable data pipelines.',
-    tech: ['Microsoft Fabric', 'Warehouse', 'Power BI', 'Data Integration'],
-    highlights: [
-      'Eliminated 120+ hours of manual monthly reporting effort',
-      'Achieved 100% audit compliance with automated lineage tracking',
-      'Reduced reporting errors from 5% to under 0.1%',
-    ],
-    gradient: 'from-rose-500 to-pink-600',
-  },
-  {
-    title: 'IoT Telemetry Processing Pipeline',
-    category: 'Azure Data Factory · Databricks · Storage Account',
-    description:
-      'Built a scalable IoT telemetry pipeline handling millions of sensor events per hour. Used Azure Storage Account for raw ingestion, Databricks for stream processing, and SQL Server for curated analytics.',
-    tech: ['Azure Data Factory', 'Databricks', 'Storage Account', 'SQL Server', 'Pyspark'],
-    highlights: [
-      'Handles 3M+ sensor events per hour with horizontal scaling',
-      'Reduced anomaly detection time from minutes to seconds',
-      'Supports 10,000+ connected IoT devices',
-    ],
-    gradient: 'from-cyan-500 to-sky-600',
-  },
+  // {
+  //   title: 'Microsoft Fabric Lakehouse Migration',
+  //   category: 'Microsoft Fabric · Lakehouse · Mirroring',
+  //   description:
+  //     'Led the migration of legacy on-premises data warehouse to Microsoft Fabric Lakehouse. Implemented medallion architecture and configured mirroring for near real-time replication from SQL Server.',
+  //   tech: ['Microsoft Fabric', 'Lakehouse', 'Mirroring', 'Warehouse', 'Notebook'],
+  //   highlights: [
+  //     'Migrated 15TB of historical data with zero downtime',
+  //     'Achieved 40% cost reduction vs. legacy infrastructure',
+  //     'Enabled self-service analytics for 500+ users',
+  //   ],
+  //   gradient: 'from-teal-500 to-emerald-600',
+  // },
+  // {
+  //   title: 'Enterprise Data Integration Hub',
+  //   category: 'Azure Data Factory · Storage Account · SQL Server',
+  //   description:
+  //     'Designed a centralized data integration hub using Azure Data Factory to orchestrate ingestion from 20+ source systems into Azure Storage Account, with downstream processing in SQL Server and Databricks.',
+  //   tech: ['Azure Data Factory', 'Storage Account', 'SQL Server', 'Databricks'],
+  //   highlights: [
+  //     'Integrated 20+ disparate source systems into a unified data layer',
+  //     'Automated 50+ pipelines with dependency management and alerting',
+  //     'Reduced data ingestion errors by 85%',
+  //   ],
+  //   gradient: 'from-indigo-500 to-blue-600',
+  // },
+  // {
+  //   title: 'Customer 360 Analytics Solution',
+  //   category: 'Databricks · Pyspark · Power BI',
+  //   description:
+  //     'Developed a Customer 360 analytics solution combining transactional, behavioral, and demographic data. Used Databricks and Pyspark for large-scale processing and Power BI for executive dashboards.',
+  //   tech: ['Databricks', 'Pyspark', 'Notebook', 'Power BI', 'Lakehouse'],
+  //   highlights: [
+  //     'Unified customer data from 8 source systems into a single view',
+  //     'Enabled targeted marketing campaigns increasing conversion by 25%',
+  //     'Processed 3TB+ of customer interaction data monthly',
+  //   ],
+  //   gradient: 'from-amber-500 to-orange-600',
+  // },
+  // {
+  //   title: 'Financial Reporting Automation',
+  //   category: 'Microsoft Fabric · Warehouse · Power BI',
+  //   description:
+  //     'Automated financial reporting workflows using Microsoft Fabric Warehouse and Power BI. Replaced manual month-end Excel processes with automated, auditable data pipelines.',
+  //   tech: ['Microsoft Fabric', 'Warehouse', 'Power BI', 'Data Integration'],
+  //   highlights: [
+  //     'Eliminated 120+ hours of manual monthly reporting effort',
+  //     'Achieved 100% audit compliance with automated lineage tracking',
+  //     'Reduced reporting errors from 5% to under 0.1%',
+  //   ],
+  //   gradient: 'from-rose-500 to-pink-600',
+  // },
+  // {
+  //   title: 'IoT Telemetry Processing Pipeline',
+  //   category: 'Azure Data Factory · Databricks · Storage Account',
+  //   description:
+  //     'Built a scalable IoT telemetry pipeline handling millions of sensor events per hour. Used Azure Storage Account for raw ingestion, Databricks for stream processing, and SQL Server for curated analytics.',
+  //   tech: ['Azure Data Factory', 'Databricks', 'Storage Account', 'SQL Server', 'Pyspark'],
+  //   highlights: [
+  //     'Handles 3M+ sensor events per hour with horizontal scaling',
+  //     'Reduced anomaly detection time from minutes to seconds',
+  //     'Supports 10,000+ connected IoT devices',
+  //   ],
+  //   gradient: 'from-cyan-500 to-sky-600',
+  // },
 ];
 
 export const certifications = [
