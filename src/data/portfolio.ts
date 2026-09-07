@@ -301,6 +301,12 @@ export const certifications = [
     year: 'June 2023',
     credentialId: '75255873',
   },
+  {
+    title: 'Programming with Python',
+    issuer: 'Internshala',
+    year: 'May 2020',
+    credentialId: '86A8DF23-2F47-F32C-12AC-4F1C7BD4D2BA',
+  },
 ];
 
 export const githubRepos = [
