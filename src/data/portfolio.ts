@@ -354,25 +354,25 @@ export const feedback = [
   },
   {
     name: 'Masked',
-    from: '****',
+    from: '*****',
     rating: 5,
     text: 'Would like to commend Mahesh for his expertise and patience in resolving this issue. Appreciate the workaround provided so this issue will not reoccur in the future. He is also proactive and checking and providing updates to us almost on a daily basis.',
   },
   {
-    name: '',
-    from: '',
+    name: 'Masked',
+    from: '*****',
     rating: 5,
     text: 'Mahesh is very knowledgeable and having in depth understanding of the Azure Services, He is able quickly help us on our case and thankyou so much for assistance',
   },
   {
     name: 'Masked',
-    from: '',
+    from: '*****',
     rating: 5,
     text: 'The MS team member was extreamly knowledgeable. He helped us to resolve the case.',
   },
   {
     name: 'Masked',
-    from: '',
+    from: '*****',
     rating: 5,
     text: 'Mahesh was really helpful in debugging and to resolve the issue.',
   }
