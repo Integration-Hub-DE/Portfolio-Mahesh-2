@@ -7,6 +7,7 @@ import Education from '@/components/Education';
 import Projects from '@/components/Projects';
 import Certifications from '@/components/Certifications';
 import GitHubRepos from '@/components/GitHubRepos';
+import Feedback from '@/components/Feedback';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 
@@ -22,6 +23,7 @@ function App() {
       <Projects />
       <Certifications />
       <GitHubRepos />
+      <Feedback />
       <Contact />
       <Footer />
     </div>

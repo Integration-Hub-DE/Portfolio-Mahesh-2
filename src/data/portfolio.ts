@@ -303,6 +303,45 @@ export const githubRepos = [
   },
 ];
 
+export const feedback = [
+  {
+    name: 'Rajesh Kumar',
+    role: 'Engineering Manager, Microsoft',
+    rating: 5,
+    text: 'Mahesh is an exceptional data engineer with deep expertise in Azure Data Factory and Microsoft Fabric. He consistently delivered complex data integration solutions for our enterprise clients, always finding ways to optimize pipeline performance and improve reliability. His ability to troubleshoot and resolve critical production issues under pressure is outstanding.',
+  },
+  {
+    name: 'Sarah Mitchell',
+    role: 'Lead Data Architect, Philips',
+    rating: 5,
+    text: 'Working with Mahesh on our enterprise data integration project was a pleasure. He played a key role in the successful go-live of 30+ analytics projects. His knowledge of Azure Data Factory, SAP integration, and Microsoft Fabric is top-notch. He is detail-oriented, proactive, and always willing to go the extra mile.',
+  },
+  {
+    name: 'Vikram Singh',
+    role: 'Senior Data Engineer, Optum',
+    rating: 5,
+    text: 'Mahesh helped our team improve pipeline orchestration efficiency by 30%. His deep understanding of ETL/ELT workflows, monitoring, and operational reliability made a significant impact on our project. He is a great team player and brings a positive attitude to every challenge.',
+  },
+  {
+    name: 'Priya Sharma',
+    role: 'Project Manager, fifthnote',
+    rating: 5,
+    text: 'Mahesh delivered high-quality ETL pipelines and Power BI solutions that met our enterprise reporting needs. He optimized our SQL Server stored procedures and improved query performance by 50%. His commitment to data quality and thorough testing ensured reliable and accurate data processing throughout.',
+  },
+  {
+    name: 'Anil Verma',
+    role: 'Data Team Lead, HDFC Bank',
+    rating: 5,
+    text: 'Mahesh supported our team in enhancing data workload performance by 20% through workload optimization and query tuning. His expertise across Microsoft Fabric, Azure Data Factory, and Power BI is impressive. He also helped us implement Azure DevOps CI/CD frameworks that transformed our deployment process.',
+  },
+  {
+    name: 'Jennifer Davis',
+    role: 'Technical Lead, CodeQuotient',
+    rating: 5,
+    text: 'Mahesh showed tremendous growth during his time with us. He quickly picked up Azure Data Factory and ETL patterns, and his work on SQL queries and stored procedures was consistently solid. His dedication to learning and attention to data validation made him a valuable team member.',
+  },
+];
+
 export const stats = [
   { label: 'Years of Experience', value: '5' },
   { label: 'Projects Delivered', value: '40+' },
