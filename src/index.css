@@ -53,3 +53,34 @@ body {
 .animate-marquee:hover {
   animation-play-state: paused;
 }
+
+/* Slide-in animations for Education section */
+@keyframes slideLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-4rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideRight {
+  from {
+    opacity: 0;
+    transform: translateX(4rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-left {
+  animation: slideLeft 0.7s ease forwards;
+}
+
+.animate-slide-right {
+  animation: slideRight 0.7s ease forwards;
+}
