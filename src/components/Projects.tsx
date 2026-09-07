@@ -25,7 +25,7 @@ export default function Projects() {
               key={project.title}
             //  className="group flex flex-col rounded-2xl bg-white border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden hover:-translate-y-1"
               
-              className="group flex flex-col w-full max-w-md mx-auto rounded-2xl bg-white border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden hover:-translate-y-1"
+              className="group flex flex-col w-full max-w-md rounded-2xl bg-white border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden hover:-translate-y-1"
             >
               {/* Gradient header */}
               <div
