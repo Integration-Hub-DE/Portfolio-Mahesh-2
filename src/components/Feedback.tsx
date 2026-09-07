@@ -49,9 +49,7 @@ export default function Feedback() {
                   {item.name.charAt(0)}
                 </div>
                 <div>
-                  <p className="text-sm font-semibold text-slate-900">
-                    {item.name}
-                  </p>
+                  {/* <p className="text-sm font-semibold text-slate-900">{item.name}</p> */}
                   <p className="text-xs text-slate-500">{item.from}</p>
                 </div>
               </div>
