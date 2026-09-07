@@ -341,8 +341,8 @@ export const githubRepos = [
 
 export const feedback = [
   {
-   // name: 'Rajesh Kumar',
-   // role: 'Engineering Manager, Microsoft',
+    name: 'Rajesh Kumar',
+    role: 'Engineering Manager, Microsoft',
     rating: 5,
     text: 'The support experience was excellent. The engineer was responsive, patient, and knomledgeable throughout the investigation. The issue was thoroughly analyzed, the root cause was identified, and clear guidance was provided to the migration trom ACS to Microsoft Graph API. The recommendations and support received greatly helped in successfully implementing the solution and restoring the affected services. Thank you tor the professionalism and assistance provided throughout the engagement.',
       
