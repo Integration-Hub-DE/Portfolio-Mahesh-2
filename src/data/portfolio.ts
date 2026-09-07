@@ -344,24 +344,38 @@ export const feedback = [
     name: 'Masked',
     from : 'Accenture Team',
     rating: 5,
-    text: 'The support experience was excellent. The engineer was responsive, patient, and knomledgeable throughout the investigation. The issue was thoroughly analyzed, the root cause was identified, and clear guidance was provided to the migration trom ACS to Microsoft Graph API. The recommendations and support received greatly helped in successfully implementing the solution and restoring the affected services. Thank you tor the professionalism and assistance provided throughout the engagement.',
-      
-    // Mahesh is an exceptional data engineer with deep expertise in Azure Data Factory and Microsoft Fabric. He consistently delivered complex data integration solutions for our enterprise clients, always finding ways to optimize pipeline performance and improve reliability. His ability to troubleshoot and resolve critical production issues under pressure is outstanding.',
+    text: 'The support experience was excellent. The engineer was responsive, patient, and knomledgeable throughout the investigation. The issue was thoroughly analyzed, the root cause was identified, and clear guidance was provided to the migration trom ACS to Microsoft Graph API. The recommendations and support received greatly helped in successfully implementing the solution and restoring the affected services. Thank you tor the professionalism and assistance provided throughout the engagement.',    
   },
   {
     name: 'Masked',
     from: 'Walgreens Team',
     rating: 5,
     text: 'Mahesh really helped a lot in understanding and resolving the issue. There is nothing to complain about. We are very satisfied with the help he provided.',
-      
-    //Working with Mahesh on our enterprise data integration project was a pleasure. He played a key role in the successful go-live of 30+ analytics projects. His knowledge of Azure Data Factory, SAP integration, and Microsoft Fabric is top-notch. He is detail-oriented, proactive, and always willing to go the extra mile.',
   },
-  // {
-  //   name: 'Vikram Singh',
-  //   role: 'Senior Data Engineer, Optum',
-  //   rating: 5,
-  //   text: 'Mahesh helped our team improve pipeline orchestration efficiency by 30%. His deep understanding of ETL/ELT workflows, monitoring, and operational reliability made a significant impact on our project. He is a great team player and brings a positive attitude to every challenge.',
-  // },
+  {
+    name: 'Masked',
+    from: '****',
+    rating: 5,
+    text: 'Would like to commend Mahesh for his expertise and patience in resolving this issue. Appreciate the workaround provided so this issue will not reoccur in the future. He is also proactive and checking and providing updates to us almost on a daily basis.',
+  },
+  {
+    name: ''.
+    from: '',
+    rating: 5,
+    text: 'Mahesh is very knowledgeable and having in depth understanding of the Azure Services, He is able quickly help us on our case and thankyou so much for assistance',
+  },
+  {
+    name: 'Masked'.
+    from: '',
+    rating: 5,
+    text: 'The MS team member was extreamly knowledgeable. He helped us to resolve the case.',
+  },
+  {
+    name: 'Masked'.
+    from: '',
+    rating: 5,
+    text: 'Mahesh was really helpful in debugging and to resolve the issue.',
+  }
 ];
 
 export const stats = [
