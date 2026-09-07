@@ -46,7 +46,7 @@ export default function Feedback() {
 
               <div className="flex items-center gap-3 pt-4 border-t border-slate-100">
                 <div className="w-10 h-10 rounded-full bg-gradient-to-br from-sky-500 to-blue-600 flex items-center justify-center text-white font-semibold text-sm shrink-0">
-                  {item.name.charAt(0)}
+                  {item.from.charAt(0)}
                 </div>
                 <div>
                   {/* <p className="text-sm font-semibold text-slate-900">{item.name}</p> */}
