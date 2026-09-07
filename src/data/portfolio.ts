@@ -284,6 +284,12 @@ export const certifications = [
     credentialId: '184658730',
   },
   {
+    title: 'Academy Accreditation - Databricks Lakehouse Fundamentals',
+    issuer: 'Databricks',
+    year: 'June 2023',
+    credentialId: '75255873',
+  },
+  {
     title: 'Spark: PySpark',
     issuer: 'Great Learning',
     year: 'July 2023',
@@ -294,12 +300,6 @@ export const certifications = [
     issuer: 'Great Learning',
     year: 'June 2023',
     credentialId: '12956',
-  },
-  {
-    title: 'Academy Accreditation - Databricks Lakehouse Fundamentals',
-    issuer: 'Databricks',
-    year: 'June 2023',
-    credentialId: '75255873',
   },
   {
     title: 'Programming with Python',
