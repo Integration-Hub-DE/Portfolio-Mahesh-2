@@ -34,7 +34,7 @@ export default function ProjectGallery({
     track.scrollBy({ left: direction * (cardWidth + 24), behavior: 'smooth' });
   };
 
-  const doubled = [...images, ...images];
+  const displayImages = images.length <= 2 ? images : [...images, ...images];
 
   return (
     <div
@@ -85,11 +85,11 @@ export default function ProjectGallery({
           <div
             ref={trackRef}
             className={`flex gap-6 overflow-x-auto scroll-smooth px-6 ${
-              paused ? '' : 'animate-gallery-marquee'
+              paused || images.length <= 2 ? '' : 'animate-gallery-marquee'
             }`}
             style={{ scrollbarWidth: 'none' }}
           >
-            {doubled.map((src, i) => (
+            {displayImages.map((src, i) => (
               <div
                 key={i}
                 className="shrink-0 w-[22rem] sm:w-[26rem] md:w-[30rem] h-64 sm:h-72 md:h-80 rounded-xl overflow-hidden border border-slate-700/50 bg-slate-800"
