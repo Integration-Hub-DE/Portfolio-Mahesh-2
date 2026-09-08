@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { projects } from '@/data/portfolio';
+import { projectImages } from '@/data/assets';
 import { FolderGit2, ArrowUpRight, CheckCircle2, Images } from 'lucide-react';
 import ProjectGallery from '@/components/ProjectGallery';
 
@@ -79,7 +80,7 @@ export default function Projects() {
                 </div>
 
                 {/* View dashboards link */}
-                {project.images && project.images.length > 0 && (
+                {projectImages.length > 0 && (
                   <button
                     onClick={() => setGalleryProject(idx)}
                     className="mt-auto inline-flex items-center gap-2 text-sm font-semibold text-sky-600 hover:text-sky-700 transition-colors group/link"
@@ -98,7 +99,7 @@ export default function Projects() {
       {galleryProject !== null && (
         <ProjectGallery
           title={projects[galleryProject].title}
-          images={projects[galleryProject].images ?? []}
+          images={projectImages}
           onClose={() => setGalleryProject(null)}
         />
       )}

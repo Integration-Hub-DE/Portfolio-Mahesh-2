@@ -12,6 +12,7 @@ import {
   Workflow,
   Boxes,
 } from 'lucide-react';
+import { resumeUrl } from '@/data/assets';
 
 export const personalInfo = {
   name: 'Mahesh',
@@ -23,7 +24,7 @@ export const personalInfo = {
   location: 'Hyderabad, Telangana',
   github: 'https://github.com/Integration-Hub-DE',
   linkedin: 'https://www.linkedin.com/in/mahesh-sharma-00897b1a3/',
-  resumeUrl: '',
+  resumeUrl: resumeUrl,
   bio: 'I am a passionate Data Engineer with 5 years of experience and deep expertise in the Microsoft data platform, specializing in designing, developing, and optimizing scalable data solutions using Azure and Microsoft Fabric. I architect end-to-end data solutions from ingestion and transformation to analytics and reporting using Azure Data Factory, Microsoft Fabric, Databricks, and Power BI. I love turning raw data into actionable insights that drive business decisions.',
 };
 
