@@ -42,7 +42,7 @@ export default function ProjectGallery({
       onClick={onClose}
     >
       <div
-        className="relative w-full max-w-5xl max-h-[90vh] bg-slate-900 rounded-2xl border border-slate-700/50 shadow-2xl overflow-hidden flex flex-col"
+        className="relative w-full max-w-[95vw] max-h-[95vh] bg-slate-900 rounded-2xl border border-slate-700/50 shadow-2xl overflow-hidden flex flex-col"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
@@ -92,7 +92,7 @@ export default function ProjectGallery({
             {doubled.map((src, i) => (
               <div
                 key={i}
-                className="shrink-0 w-72 sm:w-80 h-48 sm:h-52 rounded-xl overflow-hidden border border-slate-700/50 bg-slate-800"
+                className="shrink-0 w-[22rem] sm:w-[26rem] md:w-[30rem] h-64 sm:h-72 md:h-80 rounded-xl overflow-hidden border border-slate-700/50 bg-slate-800"
               >
                 <img
                   src={src}
