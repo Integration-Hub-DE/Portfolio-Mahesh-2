@@ -84,3 +84,17 @@ body {
 .animate-slide-right {
   animation: slideRight 0.7s ease forwards;
 }
+
+/* Gallery marquee for project dashboard images */
+@keyframes galleryMarquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-gallery-marquee {
+  animation: galleryMarquee 30s linear infinite;
+}

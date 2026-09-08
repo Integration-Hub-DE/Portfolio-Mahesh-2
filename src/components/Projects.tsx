@@ -1,7 +1,11 @@
+import { useState } from 'react';
 import { projects } from '@/data/portfolio';
-import { FolderGit2, ArrowUpRight, CheckCircle2 } from 'lucide-react';
+import { FolderGit2, ArrowUpRight, CheckCircle2, Images } from 'lucide-react';
+import ProjectGallery from '@/components/ProjectGallery';
 
 export default function Projects() {
+  const [galleryProject, setGalleryProject] = useState<number | null>(null);
+
   return (
     <section id="projects" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -19,9 +23,8 @@ export default function Projects() {
           </p>
         </div>
 
-         {/* <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6"> */}
         <div className="grid md:grid-cols-2 lg:grid-cols-1 gap-6">
-          {projects.map((project) => (
+          {projects.map((project, idx) => (
             <div
               key={project.title}
               className="group flex flex-col rounded-2xl bg-white border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden hover:-translate-y-1"
@@ -64,7 +67,7 @@ export default function Projects() {
                 </ul>
 
                 {/* Tech tags */}
-                <div className="flex flex-wrap gap-1.5 mt-auto">
+                <div className="flex flex-wrap gap-1.5 mb-4">
                   {project.tech.map((t) => (
                     <span
                       key={t}
@@ -74,11 +77,31 @@ export default function Projects() {
                     </span>
                   ))}
                 </div>
+
+                {/* View dashboards link */}
+                {project.images && project.images.length > 0 && (
+                  <button
+                    onClick={() => setGalleryProject(idx)}
+                    className="mt-auto inline-flex items-center gap-2 text-sm font-semibold text-sky-600 hover:text-sky-700 transition-colors group/link"
+                  >
+                    <Images className="w-4 h-4" />
+                    View Dashboards
+                    <ArrowUpRight className="w-3.5 h-3.5 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform" />
+                  </button>
+                )}
               </div>
             </div>
           ))}
         </div>
       </div>
+
+      {galleryProject !== null && (
+        <ProjectGallery
+          title={projects[galleryProject].title}
+          images={projects[galleryProject].images ?? []}
+          onClose={() => setGalleryProject(null)}
+        />
+      )}
     </section>
   );
 }

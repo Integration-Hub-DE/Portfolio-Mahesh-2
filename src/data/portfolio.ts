@@ -166,6 +166,16 @@ export const projects = [
       'Built Power BI semantic models and dashboards to support inventory and supply chain analytics.',
     ],
     gradient: 'from-sky-500 to-blue-600',
+    images: [
+      'https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      'https://images.pexels.com/photos/97080/pexels-photo-97080.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      'https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      'https://images.pexels.com/photos/38808473/pexels-photo-38808473.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      'https://images.pexels.com/photos/36950633/pexels-photo-36950633.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      'https://images.pexels.com/photos/577210/pexels-photo-577210.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      'https://images.pexels.com/photos/106344/pexels-photo-106344.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      'https://images.pexels.com/photos/7947954/pexels-photo-7947954.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    ],
   },
   // {
   //   title: 'Microsoft Fabric Lakehouse Migration',
